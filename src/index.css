@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .header {
+      @apply background-image: linear-gradient(to right, #8BD8DB, #8DD9A7, #95D273) padding: 20px
+    }
+}
